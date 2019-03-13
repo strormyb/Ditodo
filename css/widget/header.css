@@ -1,0 +1,24 @@
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 1.76%;
+}
+
+.card-header-title{
+    width: calc(100% - 26px);
+}
+
+.card-header-title-label{
+    color: rgba(0, 0, 0, .9);
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+}
+
+.card-header-title-label:focus {
+    border-bottom: 2px solid #7F7F7F;
+    outline: none;
+}

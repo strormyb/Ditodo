@@ -1,0 +1,14 @@
+.add-to-do-container{
+    margin-left: 1.76%;
+}
+
+.add-to-do{
+    width: 100%;
+    color: rgba(0, 0, 0, .5);
+    border: none;
+    font-size: 20px;
+}
+
+.add-to-do:focus {
+    outline: none;
+}

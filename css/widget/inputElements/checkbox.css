@@ -1,0 +1,19 @@
+.check_mark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #7F7F7F;
+    border-radius: 6px;
+}
+
+.checkboxInput:checked + span{
+    text-decoration: line-through;
+}
+
+.check_mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}

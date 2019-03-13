@@ -1,0 +1,24 @@
+@import "header.css";
+@import "body.css";
+@import "inputElements/addToDo.css";
+@import "inputElements/addWidget.css";
+@import "inputElements/checkbox.css";
+@import "inputElements/removeWidget.css";
+
+form{
+    display: flex;
+    flex-basis: calc(50% - 20px);
+    min-width: 580px;
+    min-height: 320px;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+fieldset{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    font-family: "Helvetica Neue", sans-serif;
+}

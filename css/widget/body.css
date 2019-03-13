@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    min-height: 320px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardItem{
+    display: block;
+    position: relative;
+    margin-left: 1.76%;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgba(0, 0, 0, .5);
+    user-select: none;
+}
+
+.cardItem input {
+    visibility: hidden;
+}
+
+.cardItem input:checked ~ .check_mark {
+    background: #000000 url("../../images/checkmark.svg") no-repeat center;
+}
+
+.cardItem input:checked ~ .check_mark:after {
+    display: block;
+}

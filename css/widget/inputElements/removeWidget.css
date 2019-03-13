@@ -1,0 +1,7 @@
+.removeCard{
+    height: 18px;
+    width: 15px;
+    background: #FFF url("../../../images/delete.svg") no-repeat;
+    border: none;
+    outline:none;
+}

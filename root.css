@@ -1,0 +1,23 @@
+@import "css/normalize.css";
+@import "css/logo.css";
+@import "css/widget/widget.css";
+
+body, html{
+    height: 100%;
+}
+
+.main-container{
+    display: flex;
+    min-height: 100%;
+    background-color: #f3f4f6;
+    margin: auto;
+    flex-direction: column;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: 9%;
+    margin-left: 9%;
+}
