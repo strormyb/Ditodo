@@ -21,7 +21,7 @@
 }
 
 .cardItem input:checked ~ .check_mark {
-    background: #000000 url("../../images/checkmark.svg") no-repeat center;
+    background: #000 url("../../images/checkmark.svg") no-repeat center;
 }
 
 .cardItem input:checked ~ .check_mark:after {
